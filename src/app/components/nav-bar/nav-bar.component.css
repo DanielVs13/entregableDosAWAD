@@ -1,0 +1,41 @@
+.bg-dark {
+  background-color: #1a1a1a;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffcc00;
+  transition: color 0.3s ease;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+  transform: translateY(-2px);
+}
+
+.nav-item.active .nav-link {
+  border-bottom: 3px solid #ffcc00;
+}
+
+.navbar-toggler {
+  border-color: #ffcc00;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 204, 0, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Icono de hamburguesa dorado */
+}
+
+.navbar {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item {
+  margin-left: 15px;
+}

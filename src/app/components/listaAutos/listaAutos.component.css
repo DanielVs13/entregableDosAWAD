@@ -1,0 +1,60 @@
+/* Estilo general del contenedor */
+.container {
+  max-width: 600px; /* Ancho del contenedor */
+  margin: 20px auto; /* Centrar el contenedor */
+  padding: 25px;
+  background-color: #f7f7f7; /* Fondo gris suave */
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra más ligera */
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Fuente moderna */
+  color: #333; /* Gris oscuro */
+  margin-bottom: 20px;
+}
+
+/* Etiquetas de entrada */
+label {
+  display: block; /* Bloque para que ocupe toda la línea */
+  margin-bottom: 5px; /* Espaciado inferior */
+  font-weight: 600; /* Negrita */
+  color: #333; /* Color de texto */
+}
+
+/* Entradas de número */
+input[type="number"] {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espaciado interno */
+  margin-bottom: 15px; /* Espaciado inferior */
+  border: 1px solid #666; /* Borde gris oscuro */
+  border-radius: 8px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+  transition: border-color 0.3s; /* Transición de borde */
+}
+
+/* Efecto al enfocar el input */
+input[type="number"]:focus {
+  border-color: #007bff; /* Borde azul claro al enfocar */
+  outline: none; /* Sin contorno */
+}
+
+/* Botones */
+button {
+  background-color: #007bff; /* Color azul */
+  color: white; /* Texto blanco */
+  border: none; /* Sin borde */
+  padding: 12px; /* Espaciado */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Puntero de mano */
+  font-size: 1rem; /* Tamaño de fuente */
+  transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+}
+
+/* Efecto de hover en los botones */
+button:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+  transform: translateY(-2px); /* Sube un poco el botón */
+}

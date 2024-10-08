@@ -1,0 +1,92 @@
+{
+  "autos": [
+    {
+      "id": "1",
+      "nombre": "Civic",
+      "modelo": "Sedán 2023",
+      "marca": "Honda",
+      "precio": 25.0,
+      "color": "Rojo"
+    },
+    {
+      "id": "2",
+      "nombre": "Tiguan",
+      "modelo": "SUV 2024",
+      "marca": "Volkswagen",
+      "precio": 35.0,
+      "color": "Negro"
+    },
+    {
+      "id": "3",
+      "nombre": "A8",
+      "modelo": "Sedán 2023",
+      "marca": "Audi",
+      "precio": 90.0,
+      "color": "Plata"
+    },
+    {
+      "id": "4",
+      "nombre": "M4",
+      "modelo": "Coupé 2022",
+      "marca": "BMW",
+      "precio": 75.0,
+      "color": "Azul"
+    },
+    {
+      "id": "5",
+      "nombre": "Ranger",
+      "modelo": "Camioneta 2024",
+      "marca": "Ford",
+      "precio": 40.0,
+      "color": "Gris"
+    },
+    {
+      "id": "6",
+      "nombre": "Focus",
+      "modelo": "Hatchback 2023",
+      "marca": "Ford",
+      "precio": 20.0,
+      "color": "Naranja"
+    },
+    {
+      "id": "7",
+      "nombre": "Cayman",
+      "modelo": "Deportivo 2021",
+      "marca": "Porsche",
+      "precio": 100.0,
+      "color": "Verde"
+    },
+    {
+      "id": "8",
+      "nombre": "Model S",
+      "modelo": "SUV Eléctrico 2024",
+      "marca": "Tesla",
+      "precio": 90.0,
+      "color": "Blanco"
+    },
+    {
+      "id": "9",
+      "nombre": "Sonata",
+      "modelo": "Compacto 2024",
+      "marca": "Hyundai",
+      "precio": 25.0,
+      "color": "Gris Oscuro"
+    },
+    {
+      "id": "10",
+      "nombre": "Voyager",
+      "modelo": "Monovolumen 2023",
+      "marca": "Chrysler",
+      "precio": 30.0,
+      "color": "Plata"
+    },
+    {
+      "id": "11",
+      "nombre": "Altima",
+      "modelo": "Sedán 2023",
+      "marca": "Nissan",
+      "precio": 28.0,
+      "color": "Negro"
+    }
+  ]
+}

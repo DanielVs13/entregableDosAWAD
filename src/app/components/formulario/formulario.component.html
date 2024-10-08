@@ -1,0 +1,23 @@
+<form (ngSubmit)="guardar(formulario)" #formulario="ngForm">
+  <h2 style="text-align: center">Formulario de Ingreso de Autos</h2>
+
+  <label for="id">ID:</label>
+  <input type="text" id="id" name="id" [(ngModel)]="id" />
+
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" [(ngModel)]="nombre" />
+
+  <label for="modelo">Modelo:</label>
+  <input type="text" id="modelo" name="modelo" [(ngModel)]="modelo" />
+
+  <label for="marca">Marca:</label>
+  <input type="text" id="marca" name="marca" [(ngModel)]="marca" />
+
+  <label for="precio">Precio:</label>
+  <input type="number" id="precio" name="precio" [(ngModel)]="precio" />
+
+  <label for="color">Color:</label>
+  <input type="text" id="color" name="color" [(ngModel)]="color" />
+
+  <button type="submit">Guardar</button>
+</form>

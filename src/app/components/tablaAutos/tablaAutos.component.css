@@ -1,0 +1,57 @@
+/* Estilo para las tablas */
+.table {
+  border-radius: 10px; /* Bordes redondeados para la tabla */
+  overflow: hidden; /* Evita que el contenido se desborde en las esquinas redondeadas */
+}
+
+/* Estilo para las cabeceras de la tabla */
+th {
+  background-color: #343a40; /* Fondo gris oscuro para las cabeceras */
+  color: #ffffff; /* Texto blanco en las cabeceras */
+}
+
+/* Efecto hover en las filas del cuerpo de la tabla */
+tbody tr:hover {
+  background-color: #495057; /* Fondo gris intermedio al pasar el ratón */
+  transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+/* Alineación vertical del contenido de las celdas */
+td {
+  vertical-align: middle; /* Centrar verticalmente el contenido de las celdas */
+}
+
+/* Estilo para el botón de éxito (usualmente "Aceptar", "Guardar", etc.) */
+.btn-success {
+  background-color: #28a745; /* Verde */
+  border-color: #28a745;
+}
+
+/* Estilo para el botón de peligro (usualmente "Eliminar", "Cancelar", etc.) */
+.btn-danger {
+  background-color: #dc3545; /* Rojo */
+  border-color: #dc3545;
+}
+
+/* Estilo para el botón principal (usualmente "Enviar", "Aceptar", etc.) */
+.btn-primary {
+  background-color: #007bff; /* Azul */
+  border-color: #007bff;
+}
+
+/* Transición suave para los botones */
+.btn {
+  transition: background-color 0.3s ease; /* Suave transición al cambiar el color de fondo */
+}
+
+/* Efecto al pasar el ratón sobre los botones */
+.btn:hover {
+  filter: brightness(
+    85%
+  ); /* Reduce el brillo del botón cuando se pasa el ratón */
+}
+
+/* Clase de espaciado inferior */
+.mb-3 {
+  margin-bottom: 1rem; /* Márgen inferior de 1rem */
+}
